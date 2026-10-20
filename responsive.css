@@ -1,0 +1,237 @@
+@media screen and (max-width: 1040px) {
+  .nav__toggle {
+    display: block;
+  }
+
+  .nav__data {
+    position: absolute;
+    background-color: transparent;
+
+    top: 0;
+    left: 0;
+    height: 5.5rem;
+  }
+
+  .nav {
+    height: 100%;
+  }
+
+  .nav__menu {
+    position: absolute;
+    top: 5.2rem;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    overflow: auto;
+    pointer-events: initial;
+    transition: top 0.4s, opacity 0.3s;
+    z-index: 100;
+    display: none;
+  }
+  .sticky {
+    background-color: #fff;
+    transition: all 0.5s;
+    height: 19% !important;
+  }
+  .nav__list {
+    width: 100%;
+    padding-top: 2rem;
+    display: inline-block;
+    background-color: #000;
+    height: auto;
+    /* opacity: 0; */
+    transition: background-color 0.2s;
+  }
+  .sticky 
+  .nav__menu::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .nav__link {
+    position: relative;
+    /* font-family: "Pacifico", cursive; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 1.25rem 0.8rem 1.25rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.4s;
+  }
+
+  .mail a {
+    font-size: 14px !important;
+  }
+
+  .m-head-11 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px !important;
+    justify-content: center;
+  }
+  .sing-button {
+    justify-content: center;
+  }
+  .Wordpress-template {
+    position: fixed;
+    top: 65%;
+    right: -4.8vw;
+  }
+  #nav__submenu {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .nav__data .nav__menu .nav__list #nav__submenu > ul.website_list {
+    position: static;
+    width: 60%;
+    margin-top: 30px;
+    background-color: #fff;
+    transform: translateY(0);
+
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav__data
+    .nav__menu
+    .nav__list
+    #nav__submenu
+    > ul.website_list
+    > li.website_link
+    > ul#submenu-items {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+  }
+
+  .nav__data
+    .nav__menu
+    .nav__list
+    #nav__submenu
+    > ul.website_list
+    > li.website_link
+    > ul#submenu-items
+    > li.mini-submenu {
+    margin: auto;
+    padding: 10px 20px;
+  }
+  .nav__data
+    .nav__menu
+    .nav__list
+    #nav__submenu
+    > ul.website_list
+    > li.website_link
+    > ul#submenu-items
+    > li.mini-submenu
+    > ul.mini-mega-submenu
+    > li.mini-mega-submenu-link
+    a {
+    color: #000 !important;
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__data {
+    position: absolute;
+    background-color: transparent;
+
+    top: 2.5rem;
+    left: 0;
+    height: 0;
+  }
+  .sing-button {
+    justify-content: center;
+  }
+  .Wordpress-template {
+    position: fixed;
+    top: 65%;
+    right: -18vw;
+  }
+  .html-template {
+    position: fixed;
+    top: 65%;
+    left: -16.2vw;
+  }
+  .all-sevice {
+    display: unset;
+  }
+
+  .top-main-section {
+    padding: 2rem 0 1.5rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    height: 520px;
+  }
+  .swiper-slide .swiper-img-box {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .nav__data .nav__menu .nav__list #nav__submenu > ul.website_list {
+    position: static;
+    width: 60%;
+    top: 100px;
+    background-color: #fff;
+    right: 0;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav__data
+    .nav__menu
+    .nav__list
+    #nav__submenu
+    > ul.website_list
+    > li.website_link
+    > ul#submenu-items {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: auto;
+  }
+  .nav__data
+    .nav__menu
+    .nav__list
+    #nav__submenu
+    > ul.website_list
+    > li.website_link
+    > ul#submenu-items
+    > li.mini-submenu
+    > ul.mini-mega-submenu
+    > li.mini-mega-submenu-link
+    a {
+    color: #000 !important;
+    margin-left: -20px;
+  }
+}
+
+.show-menu {
+  display: block;
+  top: 5rem;
+  pointer-events: inherit;
+  transition: all 0.5s linear;
+}
